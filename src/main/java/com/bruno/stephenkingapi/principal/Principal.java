@@ -122,10 +122,10 @@ public class Principal {
                                 .findFirst();
 
                         if (datosVillanos.isPresent()){
-                            System.out.println("Libro encontrado");
+                            System.out.println("Villano encontrado");
                             System.out.println(datosVillanos.get());
                         } else {
-                            System.out.println("libro no encontrado");
+                            System.out.println("Villano no encontrado");
                             break;
                         }
 
