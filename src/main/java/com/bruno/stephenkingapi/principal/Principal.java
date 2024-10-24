@@ -51,7 +51,7 @@ public class Principal {
             switch (decision){
                 case 1:
                     int decisionBusqueda = 0;
-                    while (decisionBusqueda !=3){
+                    while (decisionBusqueda !=2){
                         System.out.println("Busca el título de los libros en ingles");
                         var busquedaUsuario = teclado.nextLine();
                         Optional<DatosLibros> datosLibros = datos.resultados().stream()
@@ -82,7 +82,7 @@ public class Principal {
                         break;
                 case 2:
                     decisionBusqueda = 0;
-                    while (decisionBusqueda !=3){
+                    while (decisionBusqueda !=2){
                         System.out.println("Busca el título de los libros en ingles");
                         var busquedaUsuario = teclado.nextLine();
                         Optional<DatosCuentos> datosLibrosCortos = datosC.resultados().stream()
@@ -114,7 +114,7 @@ public class Principal {
 
                 case 3:
                     decisionBusqueda = 0;
-                    while (decisionBusqueda !=3){
+                    while (decisionBusqueda !=2){
                         System.out.println("Busca el título de los libros en ingles");
                         var busquedaUsuario = teclado.nextLine();
                         Optional<DatosVillano> datosVillanos = datosV.resultados().stream()
