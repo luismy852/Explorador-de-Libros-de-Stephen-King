@@ -115,7 +115,7 @@ public class Principal {
                 case 3:
                     decisionBusqueda = 0;
                     while (decisionBusqueda !=2){
-                        System.out.println("Busca el título de los libros en ingles");
+                        System.out.println("Busca por el nombre del villano");
                         var busquedaUsuario = teclado.nextLine();
                         Optional<DatosVillano> datosVillanos = datosV.resultados().stream()
                                 .filter(v -> v.nombre().toUpperCase().contains(busquedaUsuario.toUpperCase()))
